@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <RelativeLayout
+        android:id="@+id/konten_bera"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/konten_bera">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/top"
+            android:layout_centerHorizontal="true"
+            android:layout_width="360dp"
+            android:layout_height="172dp"
+            android:clipToOutline="true"
+            android:background="@drawable/top">
+
+            <View
+                android:id="@+id/image_5"
+                android:layout_width="328dp"
+                android:layout_height="156.23dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/banner"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frame_804"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="184dp"
+            android:layout_width="360dp"
+            android:layout_height="147dp"
+            android:background="@drawable/frame_804">
+
+            <RelativeLayout
+                android:id="@+id/title"
+                android:layout_width="328dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/title">
+
+                <TextView
+                    android:id="@+id/pelaksanaan"
+                    android:layout_width="218dp"
+                    android:layout_height="23dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="@string/pelaksanaan"
+                    android:textAppearance="@style/pelaksanaan"
+                    android:fontFamily="@font/roboto"
+                    android:fontFeatureSettings="tnum, lnum"
+                    android:lineSpacingExtra="7sp"
+                    android:translationY="-3.3sp"
+                    android:gravity="top" />
+
+                <View
+                    android:id="@+id/vector"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="261dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/vector" />
+
+                <TextView
+                    android:id="@+id/detail"
+                    android:layout_width="27dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="281dp"
+                    android:fontFamily="@font/lato"
+                    android:fontFeatureSettings="tnum, lnum"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/detail"
+                    android:textAppearance="@style/detail" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pagecompone1"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginTop="51dp"
+                android:layout_marginLeft="39dp"
+                android:background="@drawable/pagecompone1">
+
+                <View
+                    android:id="@+id/ellipse_1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/ellipse_1"
+                    />
+
+                <View
+                    android:id="@+id/vector2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/vector2" />
+            </RelativeLayout>
+            <View
+                android:id="@+id/line1"
+                android:layout_width="222dp"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="57dp"
+                android:layout_marginLeft="52dp"
+                android:background="@color/green"/>
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pagecompone1"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginTop="51dp"
+                android:layout_marginLeft="275dp"
+                android:background="@drawable/pagecompone1">
+
+                <View
+                    android:id="@+id/ellipse2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/ellipse2" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/vector4"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="83dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/vector4"/>
+
+            <TextView
+                android:id="@+id/verifikasi_"
+                android:layout_width="194dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="75dp"
+                android:layout_marginLeft="68dp"
+                android:fontFamily="@font/lato"
+                android:text="@string/verifikasi_"
+                android:textAppearance="@style/verifikasi_"
+                android:fontFeatureSettings="tnum, lnum"
+                android:lineSpacingExtra="3sp"
+                android:translationY="-1.6sp"
+                android:gravity="top" />
+
+            <TextView
+                android:id="@+id/april_5_mei"
+                android:layout_width="194dp"
+                android:layout_height="18dp"
+                android:layout_marginTop="97dp"
+                android:layout_marginLeft="68dp"
+                android:fontFamily="@font/lato"
+                android:text="@string/april_5_mei"
+                android:textAppearance="@style/april_5_mei"
+                android:fontFeatureSettings="tnum, lnum"
+                android:lineSpacingExtra="4sp"
+                android:translationY="-1.8sp"
+                android:gravity="top" />
+
+            <View
+                android:id="@+id/pdf"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="83dp"
+                android:layout_marginLeft="262dp"
+                android:background="@drawable/pdf"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame_810"
+            android:layout_width="360dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="343dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/frame_810">
+
+            <View
+                android:id="@+id/icon1"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/icon"/>
+
+            <TextView
+                android:id="@+id/pengumuman_"
+                android:layout_width="304dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="12dp"
+                android:text="@string/pengumuman_"
+                android:fontFamily="@font/roboto"
+                android:textAppearance="@style/pengumuman_"
+                android:fontFeatureSettings="tnum, lnum"
+                android:lineSpacingExtra="3sp"
+                android:translationY="-1.62sp"
+                android:gravity="top" />
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/frame_765"
+                android:layout_width="304dp"
+                android:layout_height="84dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="94dp"
+                android:background="@drawable/frame_765">
+
+                <TextView
+                    android:id="@+id/anda_dinyat"
+                    android:layout_width="147dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:fontFamily="@font/lato"
+                    android:text="@string/anda_dinyat"
+                    android:textAppearance="@style/anda_dinyat"
+                    android:fontFeatureSettings="tnum, lnum"
+                    android:lineSpacingExtra="6sp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/sma_negeri_"
+                    android:layout_width="164dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginLeft="12dp"
+                    android:fontFamily="@font/lato"
+                    android:text="@string/sma_negeri_"
+                    android:textAppearance="@style/sma_negeri_"
+                    android:fontFeatureSettings="tnum, lnum"
+                    android:lineSpacingExtra="3sp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/jalur_prest"
+                    android:layout_width="125dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="52dp"
+                    android:layout_marginLeft="12dp"
+                    android:fontFamily="@font/lato"
+                    android:text="@string/jalur_prest"
+                    android:textAppearance="@style/jalur_prest"
+                    android:fontFeatureSettings="tnum, lnum"
+                    android:lineSpacingExtra="6sp"
+                    android:gravity="center_vertical" />
+
+                <RelativeLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/pagecompone"
+                    android:layout_width="63dp"
+                    android:layout_height="22dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="229dp"
+                    android:background="@drawable/pagecompone2">
+                    <View
+                        android:id="@+id/vector"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:background="@drawable/vector5"
+                        />
+
+                    <TextView
+                        android:id="@+id/detail2"
+                        android:layout_width="27dp"
+                        android:layout_height="16dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="28dp"
+                        android:text="@string/detail"
+                        android:textAppearance="@style/detail2"
+                        android:fontFeatureSettings="tnum, lnum"
+                        android:lineSpacingExtra="4sp"
+                        android:gravity="center_vertical"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
